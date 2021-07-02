@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642806960763",
+    "project_id": "kurakani-6675c",
+    "storage_bucket": "kurakani-6675c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642806960763:android:3442eeb1f27e9ccbb8c8de",
+        "android_client_info": {
+          "package_name": "com.example.kurakani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642806960763-sqpdlr40f2rsgmcfehqdv7snbhp4oplh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbEZrpkN_oMhBTp66-Ns6bsDSqln49984"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642806960763-sqpdlr40f2rsgmcfehqdv7snbhp4oplh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

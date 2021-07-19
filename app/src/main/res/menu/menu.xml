@@ -10,9 +10,9 @@
 
     <item
         android:id="@+id/contacts"
-        android:title="Contacts"
+        android:title="Tasks"
         android:enabled="true"
-        android:icon="@drawable/contacts"/>
+        android:icon="@drawable/list"/>
 
 
 

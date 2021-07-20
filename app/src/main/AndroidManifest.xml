@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kurakani">
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KuraKani"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Activities.Contacts"></activity>
+        <activity android:name=".Activities.ToDo"></activity>
+        <activity android:name=".Activities.Contacts" />
         <activity android:name=".Activities.Settings" />
         <activity android:name=".Activities.ChatActivity" />
         <activity android:name=".Activities.UserHome" />

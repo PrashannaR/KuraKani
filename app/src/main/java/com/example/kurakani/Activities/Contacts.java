@@ -15,6 +15,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 
@@ -33,9 +34,6 @@ public class Contacts extends AppCompatActivity {
     ActivityContactsBinding binding;
 
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +41,6 @@ public class Contacts extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         getSupportActionBar().hide();
-
-
 
         //bottom nav functioning
         binding.botNav.setSelectedItemId(R.id.contacts);
@@ -78,7 +74,18 @@ public class Contacts extends AppCompatActivity {
                 }
             }
         });
+
+        binding.firstBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Contacts.this, ToDo.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
+
 
 
 

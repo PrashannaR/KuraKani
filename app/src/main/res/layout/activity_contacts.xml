@@ -52,7 +52,9 @@
           android:fontFamily="@font/oswald"
           android:text="FirstName LastName"
           android:textColor="@color/black"
-          android:textSize="18dp"></TextView>
+          android:textSize="18dp">
+
+      </TextView>
 
       <TextView
           android:id="@+id/task"
@@ -65,6 +67,26 @@
           android:textColor="#7C7878">
 
       </TextView>
+
+      <ImageView
+          android:id="@+id/line"
+          android:layout_width="wrap_content"
+          android:layout_height="80dp"
+          android:layout_marginLeft="320dp"
+          android:layout_marginTop="7dp"
+          app:srcCompat="@drawable/line" />
+
+      <TextView
+          android:id="@+id/time"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/oswald"
+          android:textSize="20dp"
+          android:layout_marginLeft="325dp"
+          android:textColor="#E61D25"
+          android:layout_marginTop="25dp"
+          android:text="10:30 AM" />
+
 
    </androidx.cardview.widget.CardView>
 
